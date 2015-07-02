@@ -1,4 +1,4 @@
-package others;
+package test;
 
 public class Combinations {
 	public StringBuilder out = new StringBuilder();
