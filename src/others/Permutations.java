@@ -1,4 +1,4 @@
-package test;
+package others;
 
 public class Permutations {
 	private boolean[] used;
