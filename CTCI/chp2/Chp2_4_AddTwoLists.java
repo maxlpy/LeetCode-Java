@@ -6,8 +6,8 @@ public class Chp2_4_AddTwoLists {
 		ListNode cur = dummyHead, p = l1, q = l2;
 		int carry = 0;
 		while (p != null || q != null) {
-			int x = (p != null) ? p.val : 0;
-			int y = (q != null) ? q.val : 0;
+			int x = (int) ((p != null) ? p.val : 0);
+			int y = (int) ((q != null) ? q.val : 0);
 			
 			int digit = x + y + carry;
 			carry = digit / 10;
